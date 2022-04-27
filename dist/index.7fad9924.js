@@ -1,4 +1,4 @@
-document.addEventListener('mousemove', function(e) {
+document.addEventListener('pointermove', function(e) {
     let body = document.querySelector('body');
     let heart = document.createElement('span');
     let x = e.offsetX;
@@ -16,4 +16,4 @@ document.addEventListener('mousemove', function(e) {
     }, 1000);
 });
 
-//# sourceMappingURL=index.589993fe.js.map
+//# sourceMappingURL=index.7fad9924.js.map

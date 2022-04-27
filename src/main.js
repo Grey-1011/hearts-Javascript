@@ -1,4 +1,4 @@
-document.addEventListener('mousemove',function(e){
+document.addEventListener('pointermove',function(e){
     let body = document.querySelector('body')
     let heart = document.createElement('span')
     let x = e.offsetX
